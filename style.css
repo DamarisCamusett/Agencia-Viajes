@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.package {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 15px 0;
+}
+.cart {
+    border: 1px solid #333;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+
+h1 {
+    color: #1e6492;
+    text-align: center;
+    padding: 1px 0;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+/* Estilos básicos para el formulario de búsqueda */
+.search-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.search-form input, .search-form select, .search-form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.search-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-top: 20px; /* Ajusta el valor según lo necesites */
+    margin-bottom: 20px; /* Ajusta el valor según lo necesites */
+}
+
+#results-container {
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.result {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    text-align: left;
+}
+
+.result-item {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+div{
+    margin-top: 60px; 
+    margin-bottom: 60px; 
+}
