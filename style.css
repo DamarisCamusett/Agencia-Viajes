@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #d3d8e6;
     margin: 0;
     padding: 0;
     display: flex;
@@ -28,19 +28,19 @@ body {
 
 
 h1 {
-    color: #1e6492;
+    color: #1403a7;
     text-align: center;
     padding: 1px 0;
     position: relative;
     left: 0;
     bottom: 0;
 }
-/* Estilos básicos para el formulario de búsqueda */
+
 .search-form {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #1df553;
     border-radius: 10px;
     background-color: #f9f9f9;
 }
@@ -56,8 +56,8 @@ h1 {
 .search-container {
     text-align: center;
     margin-top: 20px;
-    margin-top: 20px; /* Ajusta el valor según lo necesites */
-    margin-bottom: 20px; /* Ajusta el valor según lo necesites */
+    margin-top: 20px; 
+    margin-bottom: 20px; 
 }
 
 #results-container {
@@ -85,3 +85,4 @@ div{
     margin-top: 60px; 
     margin-bottom: 60px; 
 }
+
